@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
 
 @font-face {
-  font-family: "Pearl";
-  src: url("/public/fonts/tan-pearl.otf") format("opentype");
+  font-family: 'Pearl';
+  src: url('/fonts/tan-pearl.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
@@ -17,8 +17,8 @@
   --color-primary: #520202;
 
   --font-*: initial;
-  --font-brand: "Pearl", sans-serif;
-  --font-normal: "Raleway", sans-serif;
+  --font-brand: 'Pearl', sans-serif;
+  --font-normal: 'Raleway', sans-serif;
 
   --text-*: initial;
   --text-lg: 1.3125rem;
