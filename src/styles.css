@@ -1,15 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
-body {
-  @apply m-0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Pearl";
+  src: url("/public/fonts/tan-pearl.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@theme {
+  --color-*: initial;
+  --color-base-100: #f0eae3;
+  --color-base-200: #eae1d7;
+  --color-base-content: #2b1405;
+  --color-base-content-tp: rgba(43, 20, 5, 0.49);
+  --color-primary: #520202;
+
+  --font-*: initial;
+  --font-brand: "Pearl", sans-serif;
+  --font-normal: "Raleway", sans-serif;
+
+  --text-*: initial;
+  --text-lg: 1.3125rem;
+  --text-xl: 3.0625rem;
+
+  --spacing-*: initial;
+  --spacing-none: 0px;
+  --spacing-xs: 3.5px;
+  --spacing-sm: 7px;
+  --spacing-lg: 21px;
+  --spacing-xl: 49px;
+
+  --radius-*: initial;
+  --radius-none: 0px;
+  --radius-sm: 7px;
+}
+
+body {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
